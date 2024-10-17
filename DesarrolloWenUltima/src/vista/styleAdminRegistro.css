@@ -1,0 +1,14 @@
+/* src/vista/styleAdminRegistro.css */
+
+.registro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: #f0f0f0; /* Color de fondo claro */
+    color: #333; /* Color del texto */
+}
+
+h1 {
+    font-size: 48px; /* Tamaño de fuente grande */
+}

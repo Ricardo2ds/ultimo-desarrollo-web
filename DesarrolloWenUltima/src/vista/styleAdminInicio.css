@@ -1,0 +1,62 @@
+/* src/vista/styleAdminInicio.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.admin-container {
+    background-image: url('../imagenes/fondo.png');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.admin-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro */
+}
+
+.admin-logo {
+    width: 50px; /* Ajusta el tamaño según necesites */
+    margin-right: 20px;
+}
+
+.admin-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+.admin-body {
+    display: flex;
+    height: calc(100vh - 120px); /* Altura menos el header y el footer */
+}
+
+.admin-nav {
+    width: 200px; /* Ancho del menú lateral */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo del menú */
+    padding: 20px;
+}
+
+.admin-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-nav li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.admin-main {
+    flex: 1;
+    padding: 20px;
+}
+
+.admin-footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro */
+    padding: 10px;
+    text-align: center;
+}
